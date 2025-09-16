@@ -1,0 +1,63 @@
+{
+  "category": "mail",
+  "created_date": "2025-09-15T22:48:57.538795",
+  "default_ports": [
+    25,
+    80,
+    110,
+    143,
+    443,
+    993,
+    995
+  ],
+  "dependencies": [
+    "windows-server-2016",
+    "active-directory",
+    "iis",
+    "dotnet-framework"
+  ],
+  "description": "Microsoft Exchange Server 2016 is a proprietary messaging and collaboration platform for enterprise environments. This comprehensive installation guide covers all aspects of deploying Exchange on Windows Server 2016, while highlighting open-source alternatives like Zimbra, iRedMail, and Mailcow.",
+  "difficulty_level": "advanced",
+  "documentation_url": "https://howtomgr.github.io/mail/exchange",
+  "estimated_setup_time": "2-4 hours",
+  "features": [
+    "comprehensive-documentation",
+    "security-hardening",
+    "performance-optimization",
+    "backup-restore-procedures",
+    "troubleshooting-guides",
+    "high-availability-setup",
+    "ssl-tls-configuration",
+    "monitoring-alerting",
+    "database-management",
+    "reverse-proxy-setup"
+  ],
+  "guide_path": "/mail/exchange",
+  "installation_methods": [
+    "microsoft-installer",
+    "unattended-installation"
+  ],
+  "last_updated": "2025-09-16T00:00:00.000000",
+  "license": "Proprietary",
+  "maintenance_status": "active",
+  "name": "exchange",
+  "repository_url": "https://github.com/howtomgr/howtomgr",
+  "spec_version": "2.0",
+  "subcategory": "mail-servers",
+  "supported_os": [
+    "windows-server-2016"
+  ],
+  "tags": [
+    "mail-server",
+    "messaging",
+    "collaboration",
+    "enterprise",
+    "microsoft",
+    "proprietary",
+    "groupware",
+    "exchange"
+  ],
+  "title": "Microsoft Exchange Server 2016 Installation Guide",
+  "version": "2.0.0",
+  "website_url": "https://howtomgr.github.io/mail/exchange"
+}
